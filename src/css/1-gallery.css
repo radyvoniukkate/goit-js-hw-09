@@ -1,0 +1,27 @@
+img {
+    width: 360px;
+    height: 200px;
+    transition: transform 0.3s ease; 
+}
+
+.back-btn {
+  text-decoration: none;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+.gallery {
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    align-items: center;
+    margin: 24px 156px;
+    padding: 0;
+}
+
+img:hover {
+    transform: scale(1.05); 
+}

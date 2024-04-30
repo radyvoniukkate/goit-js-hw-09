@@ -1,0 +1,61 @@
+.feedback-form {
+  display: flex;
+  flex-direction: column;
+  margin: 16px;
+  font-family: 'Montserrat', sans-serif;
+  width: 360px;
+  gap: 8px;
+  margin: 0 auto; 
+}
+
+.back-btn {
+  text-decoration: none;
+  font-weight: 300;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button{
+    width: 95px;
+    height: 40px;
+    border-radius: 8px;
+    background-color: #4E75FF;
+    border: none;
+    color: #fff;
+    margin: 16px;
+  font-family: 'Montserrat', sans-serif;
+}
+
+button:hover{
+    background-color: #6C8CFF;
+}
+
+.inp{
+    border: 1px solid #808080;
+    border-radius: 4px;
+    padding: 8px 16px 8px ;
+font-size: 16px;
+    font-family: "Montserrat", sans-serif;
+    max-height: 80px;
+}
+
+label{
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+}
+
+input::placeholder {
+  color: rgba(0, 0, 0, 0); /* Прозорий колір */
+}
+
+input:active::placeholder, input:focus::placeholder {
+  color: #2e2f42; 
+}
+
+input:hover{
+    border-color: #000;
+}
+.inp:focus {
+  border-color: #808080; 
+  outline: none; 
+}
