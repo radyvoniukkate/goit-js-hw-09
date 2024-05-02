@@ -67,6 +67,7 @@ const images = [
   },
 ];
 
+
 const gallery = document.querySelector('.gallery');
 const list = images
   .map(
