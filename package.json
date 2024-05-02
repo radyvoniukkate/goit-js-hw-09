@@ -12,6 +12,7 @@
     "glob": "^8.1.0",
     "vite": "^4.5.2"
   },
+  
   "author": "Kate Radyvoniuk <radyvoniukkate@gmail.com>",
   "license": "ISC",
   "dependencies": {
